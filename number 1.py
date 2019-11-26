@@ -1,5 +1,5 @@
-numberlist = ['3','5','7','23']
-print('List:', numberlist)
-
-numbertuple = ('3','5','7','23')
-print('Tuple:', numbertuple)
+numbers = input("Input a comma separated numbers :")
+list = numbers.split(",")
+tuple = tuple(list)
+print('List:',list)
+print('Tuple:',tuple)
